@@ -1,7 +1,7 @@
-import { login } from "@/features/auth/api/login";
+import { login } from "@/features/login/api/login";
+import { AuthFormState } from "@/features/auth/model/auth.interface";
 import { useActionState } from "react";
-import { AuthFormState } from "./auth.interface";
-import { MAIN_PATHNAME } from "@/src/shared/config/pathname";
+import { MAIN_PATHNAME } from "@/shared/config/pathname";
 import { redirect } from "next/navigation";
 
 export const useLoginActionState = () => {

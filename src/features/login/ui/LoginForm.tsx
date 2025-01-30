@@ -1,10 +1,10 @@
 "use client";
 
 import { Button } from "@/shared/ui/button";
-import { EmailInput, PasswordInput } from "@/src/features/auth/ui";
-import { useLoginActionState } from "@/src/features/auth/model/useLoginActionState";
+import { EmailInput, PasswordInput } from "@/features/auth/ui";
+import { useLoginActionState } from "@/features/login/model/useLoginActionState";
 import Link from "next/link";
-import { SIGN_UP_PATHNAME } from "@/src/shared/config/pathname";
+import { SIGN_UP_PATHNAME } from "@/shared/config/pathname";
 
 export default function LoginForm() {
   const { loginFormState, loginFormAction } = useLoginActionState();

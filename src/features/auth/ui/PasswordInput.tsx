@@ -1,4 +1,4 @@
-import { Input, Label } from "@/src/shared/ui";
+import { Input, Label } from "@/shared/ui";
 
 export function PasswordInput() {
   return (

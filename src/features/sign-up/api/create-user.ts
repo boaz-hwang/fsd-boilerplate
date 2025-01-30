@@ -1,8 +1,8 @@
 "use server";
 
-import { createClient } from "@/src/shared/utils/supabase/server";
-import { headers } from "next/headers";
+import { createClient } from "@/shared/utils/supabase/server";
 import { User } from "@/entities/user/model/user.interface";
+import { headers } from "next/headers";
 
 export const createUser = async ({ email, password }: User) => {
   const headersRes = await headers();

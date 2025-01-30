@@ -1,7 +1,7 @@
-import { LOGIN_PATHNAME } from "@/src/shared/config/pathname";
-import { Button } from "@/src/shared/ui";
-import { createClient } from "@/src/shared/utils/supabase/server";
+import { Button } from "@/shared/ui";
+import { createClient } from "@/shared/utils/supabase/server";
 import Link from "next/link";
+import { LOGIN_PATHNAME } from "@/shared/config/pathname";
 import { redirect } from "next/navigation";
 
 export default async function AuthButton() {

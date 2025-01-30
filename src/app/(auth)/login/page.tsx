@@ -1,4 +1,4 @@
-import LoginForm from "@/widgets/auth/ui/LoginForm";
+import LoginForm from "@/features/login/ui/LoginForm";
 
 export default async function Login() {
   return (

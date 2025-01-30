@@ -1,6 +1,6 @@
-import { Button } from "@/src/shared/ui";
-import { createClient } from "@/src/shared/utils/supabase/server";
-import { encodedRedirect } from "@/src/shared/utils/supabase/utils";
+import { Button } from "@/shared/ui";
+import { createClient } from "@/shared/utils/supabase/server";
+import { encodedRedirect } from "@/shared/utils/supabase/utils";
 
 export default function ResetPasswordButton() {
   const resetPasswordAction = async (formData: FormData) => {

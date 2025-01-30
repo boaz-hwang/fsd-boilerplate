@@ -1,7 +1,7 @@
-import { createUser } from "@/features/auth/api/create-user";
+import { createUser } from "@/features/sign-up/api/create-user";
 import { useActionState } from "react";
-import { AuthFormState } from "./auth.interface";
-import { LOGIN_PATHNAME } from "@/src/shared/config/pathname";
+import { AuthFormState } from "@/features/auth/model/auth.interface";
+import { LOGIN_PATHNAME } from "@/shared/config/pathname";
 import { redirect } from "next/navigation";
 
 export const useSignUpActionState = () => {
